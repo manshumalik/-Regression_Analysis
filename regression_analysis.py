@@ -2,7 +2,7 @@
 """
 Created on Mon Oct 26 21:02:46 2020
 
-@author: VD
+@author: MM
 """
 
 ## 1. OLS regression coefficients 
@@ -276,6 +276,5 @@ temp2=mean_absolute_error(y_train, predict1)
 temp3=mean_absolute_error(y_test,predict2)
 temp=np.array([temp2,temp3])
 arr3=np.append(arr3,[temp],axis=0)
-
 
 
